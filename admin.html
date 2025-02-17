@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administração</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <h1>Administração</h1>
+        <nav>
+            <ul>
+
+                <li><a href="inicio.html">inicio</a></li>
+                <li><a href="catalogo.html">catalogo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Gerenciar Produtos</h2>
+        <form id="product-form">
+            <input type="text" id="product-name" placeholder="Nome do Produto" required>
+            <input type="number" id="product-price" placeholder="Preço" required>
+            <button type="submit">Adicionar Produto</button>
+        </form>
+        
+        <ul id="product-list"></ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Loja de Móveis. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
